@@ -1,0 +1,27 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <table style="width:90%" border="1" id="highscores-tables">
+            <tr>
+                <th>Name</th>
+                <th>Score</th>
+            </tr>
+            {{#each scores}}
+            <tr>
+                <td>{{this.user_name}}</td>
+                <td>{{this.score}}</td>
+            </tr>
+            {{/each}}
+        </table>
+    </div>
+</div>
+
+<br>
+<br>
+
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <form method="POST" action="/start-over">
+            <input type="submit" value="Retry" id="retry-highscore">
+        </form>
+    </div>
+</div>

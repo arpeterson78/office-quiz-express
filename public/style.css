@@ -1,0 +1,42 @@
+body {
+    background: url("background.jpg");
+
+}
+
+#header {
+    width: 500px;
+    height: 100px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+   
+
+}
+
+.start {
+    border-radius: 25px;
+    width: 75px;
+}
+
+.name-input {
+    border-radius: 25px;
+    border: 1px solid gray;
+    padding-left: 15px;
+}
+
+#instruction {
+    font-family: 'Inconsolata', monospace;
+}
+
+#highscores {
+    margin-left: 75px;
+    border-radius: 25px;
+    width: 120px;
+}
+
+th, td {
+    text-align: center;
+}
+
+#retry-highscore {
+    margin-left: 135px;
+}
